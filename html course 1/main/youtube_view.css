@@ -1,0 +1,26 @@
+#a{
+   width: 300px;
+}
+.thumbnail{
+   display: block;
+}
+.author,.time{
+   display: block;
+}
+.thumbnail{
+   object-fit: contain;
+   width: 300px;
+   
+   
+   
+   }
+.searchbar{
+   display: block;
+
+
+}
+.video-preview{
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 15px;
+}

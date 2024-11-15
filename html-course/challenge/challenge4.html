@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      *{
+         margin: 10px;
+      }
+      .strech{
+         background-color: green;
+         color: white;
+         cursor: pointer;
+         padding: 10px;
+         transition: padding 0.95s;
+      }
+      .strech:hover{
+         padding: 80px;
+         transition: padding 0.85s;
+      }
+      .shadow{
+         background-color: green;
+         color: white;
+         padding: 15px;
+         
+      }
+      .shadow:hover{
+         cursor: pointer;
+         box-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+         transition: box-shadow 0.75s;
+         
+      }
+      .shadow:active{
+         box-shadow: none;
+         transition: box-shadow 0.15s;
+      }
+      .number{
+         padding: 10px;
+         background-color: green;
+         color: white;
+         transition:padding 0.55s;
+
+
+
+
+
+      }
+         .number:hover{
+            padding-left: 15px;
+            padding-right: 15px;
+            transition: padding-right 0.55s,padding-left 0.55s;
+         }
+      
+   </style>
+</head>
+<body>
+   <button>back</button>
+   <a href="">1</a><a href="">2</a>3<a href="">4</a><a href="">4</a><a href="">5</a>
+   <button>next</button>
+
+   <button class="strech">strech</button>
+   <button class="shadow">Shadow</button>
+   <button class="number">One</button>
+   <button class="number">Two</button>
+   <button class="number">Three</button>
+</body>
+</html>

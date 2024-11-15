@@ -1,0 +1,45 @@
+.flex-parent{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 30px;
+   
+   
+}
+.flexbox{
+   width: 100px;
+   background-color: lightpink;
+   
+}
+
+.flexbox-1{
+   width: 200px;
+   background-color: lightblue;
+}
+.info{
+   margin-left: 30px;
+   background-color: black;
+   color: white;
+   margin-right: 25px;
+}
+.flexbox-2{
+   background-color: lightpink;
+   width: 100px;
+}
+.flexbox-3{
+   background-color: lightblue;
+   width: 200px;
+   flex-direction: row;
+   margin-bottom: 0;
+}
+
+.flex-child{
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-between;
+   
+}
+
+.info-1{
+background-color: black;
+color: white;
+}

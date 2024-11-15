@@ -1,0 +1,63 @@
+.row-1{
+   display: inline-block;
+   margin-left: 10px;
+   padding: 10px;
+   border-radius: 6px;
+   border:  0.5px solid gray;
+   width: 130px;
+   
+   }
+   .row-2{
+   padding: 10px;
+   border-radius: 6px;
+   border:  0.5px solid gray;
+   width: 130px;
+
+}
+ .row-3{
+   display: block;
+   margin: 10px;
+   padding: 10px;
+   width: 285px;
+ }
+ .signup{
+   margin-left: 10px;
+   display: block;
+   color: white;
+   width :308px;
+   background-color: rgb(45, 134, 230);
+   padding: 10px;
+   height: 50px;
+   border: none;
+   border-radius: 10px;
+   
+
+ }
+ 
+ .input{
+   display: block;
+   margin-top: 10px;
+   width: 400px;
+   padding: 10px;
+   margin-bottom: 10px;
+   background-color: rgb(245, 245, 245);
+   border: none;
+
+ }
+ .req,.schedule,h2{
+   margin-top: 20px;
+ }
+ .req{
+   color: white;
+   padding: 10px;
+   background-color: black;
+   margin-right: 8px;
+   border: none;
+
+ }
+ .schedule{
+   color: rgb(52, 52, 52);
+   background-color: rgb(245,245,245);
+   padding: 10px;
+   border: none;
+ }

@@ -1,0 +1,138 @@
+
+body{
+   height: 200px;
+   }
+   .section{
+      display: inline-block;
+      width: 500px;
+      vertical-align: middle;
+      
+
+      
+   
+}
+
+.photo-profile{
+
+   text-align: center;
+   margin-right: 5px;
+   display: inline-block;
+   margin-right: 5px;
+   height: 100px;
+   margin-left: 10px;
+   
+   
+}
+.photo{
+   object-fit: cover;
+   width: 100px;
+   border-radius: 80px;
+   margin-right: 5px;
+   margin-top: 5px;
+}
+.info{
+  
+  
+   display: inline-block;
+   align-items: center;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   vertical-align: top;
+   
+   }
+   .desc,.status,.name{
+      display: block;
+      
+      
+      }
+      .status,.desc{
+         color: rgb(96, 96, 96);
+         font-weight: lighter;
+         opacity: 0.55;
+      }
+      .name{
+         font-weight: bold;
+      }
+     
+      
+      .divb{
+         display: inline-block;
+         vertical-align: middle;
+         
+         }
+         
+         .button{
+            border: none;
+            color: white;
+            text-transform: capitalize;
+            padding: 10px;
+            border-radius: 7px;
+            width: 80px;
+            font-weight: 600;
+            margin-right: 30px;
+            
+            background-color: rgb(29 161 242);
+         }
+         .shadow{
+            display: block;
+            margin-bottom: 5px;
+            width: 650px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+         }
+           
+         .photo2{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-top: 5px;
+            border-radius: 80px;
+         }
+         
+         .photo1{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50px;
+            margin-top: 5px;
+         }
+         
+   
+
+
+  .container{
+   margin-top: 20px;
+   
+
+  }
+  .photo-container{
+   object-fit: cover;
+   display: inline-block;
+   
+  }
+  .text{
+   display: inline-block;
+   vertical-align: top;
+   font-family: Roboto,Arial;
+   font-weight: 500;
+   width :400px;
+   
+  }
+  .judul{
+   margin-top: 10px;
+   font-size: 19px ;
+   color: rgba(0, 0, 0, 0.756);
+  }
+  .channel-name{
+     color: rgba(8, 8, 8, 0.57);
+     font-weight: 400;
+     margin-top: 30px;
+     margin-bottom: 0;
+    font-size: 16px;
+
+  }
+.date{
+   color: rgba(1, 1, 1, 0.57);
+   font-weight: 400;
+   font-size: 15px;
+   margin-top: 7px;
+}
